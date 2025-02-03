@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Arvian Syiddiq</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+</head>
+<body class="bg-gray-100">  
+    <main class="max-w-6xl mx-auto py-8 flex flex-col md:flex-row gap-8">
+        <div id="aside-container" class="w-full md:w-1/4" ></div>
+
+        <section class="w-full md:w-3/4">
+            <h2 class="text-2xl font-semibold mb-4">Game - Projects</h2>
+
+            <div class="grid md:grid-cols-2 gap-6">
+                <!-- Project Card 3 -->
+                <div class="bg-white p-4 shadow rounded-lg">
+                    <img src="images/staballizer.png" alt="Finances Management System" class="w-full h-40 object-cover rounded-lg">
+                    <h3 class="font-semibold mt-3">Staballizer</h3>
+                    <p class="text-sm text-gray-600">worked in a team to develop and release my first Unity game, a rolling ball game with a third-person view, featuring various obstacles and 3D models. This project enhanced my skills in game development, teamwork, and problem-solving.</p>
+                    <a href="content5.html" class="text-blue-500 text-sm">Read more →</a>
+                </div>
+                <div class="bg-white p-4 shadow rounded-lg">
+                    <img src="images/Screenshot_2.png" alt="Academic Information System" class="w-full h-40 object-cover rounded-lg">
+                    <h3 class="font-semibold mt-3">Puzzle Spahre Game</h3>
+                    <p class="text-sm text-gray-600">A Unity-based mobile game project focusing on game design, level design, and 3D modeling. Players control a ball, navigating obstacles to reach the finish line. The game features interactive mechanics, dynamic levels, and engaging environments, challenging players to solve puzzles and overcome obstacles.</p>
+                    <a href="content4.html" class="text-blue-500 text-sm">Read more →</a>
+                </div>
+
+            </div>
+
+<br>
+
+            <div class="grid md:grid-cols-2 gap-6">
+                <!-- Project Card 3 -->
+                <div class="bg-white p-4 shadow rounded-lg">
+                    <img src="images/project-booster.png" alt="Finances Management System" class="w-full h-40 object-cover rounded-lg">
+                    <h3 class="font-semibold mt-3">Project Rocket Booster</h3>
+                    <p class="text-sm text-gray-600">A Unity project from Udemy's GameDev.tv course, focusing on physics-based movement, collision detection, and level design. Players control a rocket using thrust and rotation mechanics, enhancing my skills in gameplay development and 3D asset integration.</p>
+                    <a href="content7.html" class="text-blue-500 text-sm">Read more →</a>
+                </div>
+
+            </div>
+        </section>
+    </main>
+</body>
+
+<script>
+    $(function(){
+        $("#aside-container").load("aside.html");
+    });
+</script>
+</html>
